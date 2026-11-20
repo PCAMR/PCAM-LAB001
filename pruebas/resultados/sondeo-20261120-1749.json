@@ -1,0 +1,712 @@
+{
+ "ejecutado_utc": "2026-11-20T17:49:52",
+ "dolarapi": {
+  "status": 200,
+  "json": [
+   {
+    "moneda": "USD",
+    "casa": "oficial",
+    "nombre": "Oficial",
+    "compra": 1545,
+    "venta": 1595,
+    "fechaActualizacion": "2026-11-20T14:00:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "blue",
+    "nombre": "Blue",
+    "compra": 1645,
+    "venta": 1665,
+    "fechaActualizacion": "2026-11-20T16:56:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "bolsa",
+    "nombre": "Bolsa",
+    "compra": 1669.7,
+    "venta": 1671.9,
+    "fechaActualizacion": "2026-11-20T16:56:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "contadoconliqui",
+    "nombre": "Contado con liquidación",
+    "compra": 1776.3,
+    "venta": 1777.6,
+    "fechaActualizacion": "2026-11-20T16:56:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "mayorista",
+    "nombre": "Mayorista",
+    "compra": 1567,
+    "venta": 1576,
+    "fechaActualizacion": "2026-11-20T13:55:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "cripto",
+    "nombre": "Cripto",
+    "compra": 1769.93,
+    "venta": 1777.73,
+    "fechaActualizacion": "2026-11-20T16:56:00.000Z"
+   },
+   {
+    "moneda": "USD",
+    "casa": "tarjeta",
+    "nombre": "Tarjeta",
+    "compra": 2008.5,
+    "venta": 2073.5,
+    "fechaActualizacion": "2026-11-20T14:00:00.000Z"
+   }
+  ]
+ },
+ "argentinadatos_riesgo_pais": {
+  "status": 200,
+  "json": {
+   "valor": 931,
+   "fecha": "2026-11-19"
+  }
+ },
+ "data912": {
+  "mep": {
+   "status": 200,
+   "muestra": [
+    {
+     "ticker": "AAL",
+     "bid": 1665.6394,
+     "ask": 1687.4028,
+     "close": 1663.5945,
+     "mark": 1676.5211,
+     "v_ars": 124447530.0,
+     "v_usd": 16379.16,
+     "q_ars": 105.0,
+     "q_usd": 14.0,
+     "ars_bid": 10810.0,
+     "ars_ask": 10850.0,
+     "usd_bid": 6.43,
+     "usd_ask": 6.49,
+     "panel": "cedear"
+    },
+    {
+     "ticker": "AAP",
+     "bid": 1609.9585,
+     "ask": 1706.8215,
+     "close": 1657.6705,
+     "mark": 1658.39,
+     "v_ars": 9137610.0,
+     "v_usd": 3.52,
+     "q_ars": 45.0,
+     "q_usd": 0.0,
+     "ars_bid": 5820.0,
+     "ars_ask": 5880.0,
+     "usd_bid": 3.445,
+     "usd_ask": 3.615,
+     "panel": "cedear"
+    },
+    {
+     "ticker": "AAPL",
+     "bid": 1673.913,
+     "ask": 1684.6699,
+     "close": 1672.0955,
+     "mark": 1679.2915,
+     "v_ars": 982889600.0,
+     "v_usd": 105693.96,
+     "q_ars": 1173.0,
+     "q_usd": 203.0,
+     "ars_bid": 30800.0,
+     "ars_ask": 30880.0,
+     "usd_bid": 18.33,
+     "usd_ask": 18.4,
+     "panel": "cedear"
+    },
+    {
+     "ticker": "ABBV",
+     "bid": 1670.9971,
+     "ask": 1689.0344,
+     "close": 1673.4329,
+     "mark": 1680.0157,
+     "v_ars": 66312675.0,
+     "v_usd": 4249.02,
+     "q_ars": 104.0,
+     "q_usd": 14.0,
+     "ars_bid": 51450.0,
+     "ars_ask": 51600.0,
+     "usd_bid": 30.55,
+     "usd_ask": 30.79,
+     "panel": "cedear"
+    },
+    {
+     "ticker": "ABEV",
+     "bid": 1664.6989,
+     "ask": 1688.5442,
+     "close": 1657.277,
+     "mark": 1676.6215,
+     "v_ars": 22013080.0,
+     "v_usd": 1405.8,
+     "q_ars": 50.0,
+     "q_usd": 14.0,
+     "ars_bid": 14100.0,
+     "ars_ask": 14150.0,
+     "usd_bid": 8.38,
+     "usd_ask": 8.47,
+     "panel": "cedear"
+    }
+   ]
+  },
+  "ccl": {
+   "status": 200,
+   "muestra": [
+    {
+     "ticker_usa": "LOMA",
+     "ticker_ar": "LOMA",
+     "CCL_bid": 1771.6165,
+     "CCL_ask": 1785.2645,
+     "CCL_close": 1778.3019,
+     "CCL_mark": 1778.4234,
+     "ars_volume": 291088297.5,
+     "volume_rank": 55.0,
+     "arg_panel": "stock",
+     "usa_panel": "adr"
+    },
+    {
+     "ticker_usa": "SUPV",
+     "ticker_ar": "SUPV",
+     "CCL_bid": 1762.987,
+     "CCL_ask": 1782.7511,
+     "CCL_close": 1786.6521,
+     "CCL_mark": 1772.8261,
+     "ars_volume": 1276096419.0,
+     "volume_rank": 23.0,
+     "arg_panel": "stock",
+     "usa_panel": "adr"
+    },
+    {
+     "ticker_usa": "GGAL",
+     "ticker_ar": "GGAL",
+     "CCL_bid": 1783.1683,
+     "CCL_ask": 1796.0972,
+     "CCL_close": 1783.8748,
+     "CCL_mark": 1789.6148,
+     "ars_volume": 12809517947.5,
+     "volume_rank": 3.0,
+     "arg_panel": "stock",
+     "usa_panel": "adr"
+    },
+    {
+     "ticker_usa": "BBAR",
+     "ticker_ar": "BBAR",
+     "CCL_bid": 1776.1795,
+     "CCL_ask": 1791.3295,
+     "CCL_close": 1781.0345,
+     "CCL_mark": 1783.737,
+     "ars_volume": 1051475205.0,
+     "volume_rank": 26.0,
+     "arg_panel": "stock",
+     "usa_panel": "adr"
+    },
+    {
+     "ticker_usa": "CEPU",
+     "ticker_ar": "CEPU",
+     "CCL_bid": 1769.1532,
+     "CCL_ask": 1786.802,
+     "CCL_close": 1778.5642,
+     "CCL_mark": 1777.9464,
+     "ars_volume": 932760761.0,
+     "volume_rank": 29.0,
+     "arg_panel": "stock",
+     "usa_panel": "adr"
+    }
+   ]
+  },
+  "arg_bonds": {
+   "status": 200,
+   "total_filas": 203,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": [
+    {
+     "symbol": "AL30",
+     "q_bid": 11685.0,
+     "px_bid": 81720.0,
+     "px_ask": 81740.0,
+     "q_ask": 74937.0,
+     "v": 191211751.0,
+     "q_op": 78078.0,
+     "c": 81740.0,
+     "pct_change": -0.08
+    },
+    {
+     "symbol": "AL30D",
+     "q_bid": 194.0,
+     "px_bid": 48.655,
+     "px_ask": 48.662,
+     "q_ask": 5070.0,
+     "v": 170403894.0,
+     "q_op": 82665.0,
+     "c": 48.643,
+     "pct_change": -2.26
+    },
+    {
+     "symbol": "AL35",
+     "q_bid": 365.0,
+     "px_bid": 102460.0,
+     "px_ask": 102580.0,
+     "q_ask": 35.0,
+     "v": 7171578.0,
+     "q_op": 2550.0,
+     "c": 102460.0,
+     "pct_change": -0.62
+    },
+    {
+     "symbol": "AL35D",
+     "q_bid": 208.0,
+     "px_bid": 61.01,
+     "px_ask": 61.04,
+     "q_ask": 269.0,
+     "v": 1058957.0,
+     "q_op": 1588.0,
+     "c": 61.04,
+     "pct_change": -2.8
+    },
+    {
+     "symbol": "T15E7",
+     "q_bid": 3253522.0,
+     "px_bid": 155.444,
+     "px_ask": 155.462,
+     "q_ask": 1554245.0,
+     "v": 15181222278.0,
+     "q_op": 404.0,
+     "c": 155.444,
+     "pct_change": 0.07
+    }
+   ]
+  },
+  "arg_notes": {
+   "status": 200,
+   "total_filas": 16,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": []
+  },
+  "arg_corp": {
+   "status": 200,
+   "total_filas": 613,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": [
+    {
+     "symbol": "MGCRD",
+     "q_bid": 10000.0,
+     "px_bid": 95.35,
+     "px_ask": 95.53,
+     "q_ask": 30000.0,
+     "v": 501000.0,
+     "q_op": 39.0,
+     "c": 95.45,
+     "pct_change": -1.08
+    },
+    {
+     "symbol": "MGCRO",
+     "q_bid": 20000.0,
+     "px_bid": 159910.0,
+     "px_ask": 160200.0,
+     "q_ask": 35000.0,
+     "v": 581000.0,
+     "q_op": 39.0,
+     "c": 159080.0,
+     "pct_change": 0.81
+    },
+    {
+     "symbol": "YMCJD",
+     "q_bid": 57.0,
+     "px_bid": 95.81,
+     "px_ask": 96.19,
+     "q_ask": 912.0,
+     "v": 122382.0,
+     "q_op": 458.0,
+     "c": 95.93,
+     "pct_change": -2.26
+    },
+    {
+     "symbol": "YMCJO",
+     "q_bid": 162.0,
+     "px_bid": 161160.0,
+     "px_ask": 161660.0,
+     "q_ask": 602.0,
+     "v": 136100.0,
+     "q_op": 652.0,
+     "c": 161540.0,
+     "pct_change": -0.39
+    }
+   ]
+  },
+  "arg_stocks": {
+   "status": 200,
+   "total_filas": 96,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": [
+    {
+     "symbol": "GGAL",
+     "q_bid": 1.0,
+     "px_bid": 4502.5,
+     "px_ask": 4510.0,
+     "q_ask": 1494.0,
+     "v": 2844979.0,
+     "q_op": 5786.0,
+     "c": 4502.5,
+     "pct_change": -1.09
+    }
+   ]
+  },
+  "arg_cedears": {
+   "status": 200,
+   "total_filas": 1049,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": [
+    {
+     "symbol": "DIA",
+     "q_bid": 2644.0,
+     "px_bid": 43480.0,
+     "px_ask": 43580.0,
+     "q_ask": 5944.0,
+     "v": 33623.0,
+     "q_op": 431.0,
+     "c": 43520.0,
+     "pct_change": 2.01
+    },
+    {
+     "symbol": "GLD",
+     "q_bid": 8333.0,
+     "px_bid": 11530.0,
+     "px_ask": 11550.0,
+     "q_ask": 2423.0,
+     "v": 332447.0,
+     "q_op": 1774.0,
+     "c": 11530.0,
+     "pct_change": -1.11
+    },
+    {
+     "symbol": "QQQ",
+     "q_bid": 1633.0,
+     "px_bid": 55400.0,
+     "px_ask": 55500.0,
+     "q_ask": 1998.0,
+     "v": 76816.0,
+     "q_op": 2294.0,
+     "c": 55475.0,
+     "pct_change": -1.42
+    },
+    {
+     "symbol": "SLV",
+     "q_bid": 5455.0,
+     "px_bid": 10990.0,
+     "px_ask": 11020.0,
+     "q_ask": 8662.0,
+     "v": 33492.0,
+     "q_op": 515.0,
+     "c": 11000.0,
+     "pct_change": -4.01
+    },
+    {
+     "symbol": "SPY",
+     "q_bid": 4260.0,
+     "px_bid": 20860.0,
+     "px_ask": 20890.0,
+     "q_ask": 2011.0,
+     "v": 354930.0,
+     "q_op": 5484.0,
+     "c": 20900.0,
+     "pct_change": 0.04
+    },
+    {
+     "symbol": "XLB",
+     "q_bid": 14300.0,
+     "px_bid": 4827.5,
+     "px_ask": 4872.5,
+     "q_ask": 8000.0,
+     "v": 1193.0,
+     "q_op": 25.0,
+     "c": 4870.0,
+     "pct_change": 1.93
+    },
+    {
+     "symbol": "XLC",
+     "q_bid": 7000.0,
+     "px_bid": 9520.0,
+     "px_ask": 9550.0,
+     "q_ask": 6650.0,
+     "v": 8132.0,
+     "q_op": 33.0,
+     "c": 9555.0,
+     "pct_change": 1.64
+    },
+    {
+     "symbol": "XLE",
+     "q_bid": 6534.0,
+     "px_bid": 54600.0,
+     "px_ask": 54750.0,
+     "q_ask": 1364.0,
+     "v": 5477.0,
+     "q_op": 190.0,
+     "c": 54800.0,
+     "pct_change": 3.54
+    },
+    {
+     "symbol": "XLF",
+     "q_bid": 1500.0,
+     "px_bid": 49300.0,
+     "px_ask": 49400.0,
+     "q_ask": 12.0,
+     "v": 14098.0,
+     "q_op": 415.0,
+     "c": 49300.0,
+     "pct_change": 1.9
+    },
+    {
+     "symbol": "XLK",
+     "q_bid": 8010.0,
+     "px_bid": 5910.0,
+     "px_ask": 5920.0,
+     "q_ask": 18.0,
+     "v": 27598.0,
+     "q_op": 447.0,
+     "c": 5925.0,
+     "pct_change": -2.54
+    },
+    {
+     "symbol": "XLP",
+     "q_bid": 50.0,
+     "px_bid": 10200.0,
+     "px_ask": 10210.0,
+     "q_ask": 52.0,
+     "v": 67341.0,
+     "q_op": 517.0,
+     "c": 10180.0,
+     "pct_change": 4.57
+    },
+    {
+     "symbol": "XLRE",
+     "q_bid": 10140.0,
+     "px_bid": 8510.0,
+     "px_ask": 8565.0,
+     "q_ask": 6998.0,
+     "v": 2136.0,
+     "q_op": 54.0,
+     "c": 8565.0,
+     "pct_change": 3.37
+    },
+    {
+     "symbol": "XLU",
+     "q_bid": 7659.0,
+     "px_bid": 5140.0,
+     "px_ask": 5155.0,
+     "q_ask": 6601.0,
+     "v": 79235.0,
+     "q_op": 315.0,
+     "c": 5140.0,
+     "pct_change": 3.31
+    },
+    {
+     "symbol": "XLY",
+     "q_bid": 16500.0,
+     "px_bid": 4707.5,
+     "px_ask": 4747.5,
+     "q_ask": 7539.0,
+     "v": 3346.0,
+     "q_op": 33.0,
+     "c": 4712.5,
+     "pct_change": 1.18
+    }
+   ]
+  },
+  "usa_stocks": {
+   "status": 200,
+   "total_filas": 3126,
+   "ejemplo_campos": [
+    "symbol",
+    "q_bid",
+    "px_bid",
+    "px_ask",
+    "q_ask",
+    "v",
+    "q_op",
+    "c",
+    "pct_change"
+   ],
+   "filtrado": []
+  }
+ },
+ "yahoo": {
+  "SPY": {
+   "meta_precio": 699.84,
+   "primer_cierre": 683.1699829101562,
+   "ultimo_cierre": 699.8400268554688,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "QQQ": {
+   "meta_precio": 620.11,
+   "primer_cierre": 613.1199951171875,
+   "ultimo_cierre": 620.1099853515625,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "DIA": {
+   "meta_precio": 486.63,
+   "primer_cierre": 483.6300048828125,
+   "ultimo_cierre": 486.6300048828125,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLP": {
+   "meta_precio": 91.35,
+   "primer_cierre": 77.69000244140625,
+   "ultimo_cierre": 91.3499984741211,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLK": {
+   "meta_precio": 152.07,
+   "primer_cierre": 144.3000030517578,
+   "ultimo_cierre": 152.07000732421875,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLF": {
+   "meta_precio": 55.19,
+   "primer_cierre": 54.93000030517578,
+   "ultimo_cierre": 55.189998626708984,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLE": {
+   "meta_precio": 61.15,
+   "primer_cierre": 45.650001525878906,
+   "ultimo_cierre": 61.150001525878906,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLRE": {
+   "meta_precio": 43.0,
+   "primer_cierre": 40.380001068115234,
+   "ultimo_cierre": 43.0,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLU": {
+   "meta_precio": 43.255,
+   "primer_cierre": 43.18000030517578,
+   "ultimo_cierre": 43.255001068115234,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLY": {
+   "meta_precio": 113.83,
+   "primer_cierre": 118.3499984741211,
+   "ultimo_cierre": 113.83000183105469,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLC": {
+   "meta_precio": 101.47,
+   "primer_cierre": 116.9000015258789,
+   "ultimo_cierre": 101.47000122070312,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "XLB": {
+   "meta_precio": 48.87,
+   "primer_cierre": 46.119998931884766,
+   "ultimo_cierre": 48.869998931884766,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "GLD": {
+   "meta_precio": 322.905,
+   "primer_cierre": 398.2799987792969,
+   "ultimo_cierre": 322.9049987792969,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "SLV": {
+   "meta_precio": 36.985,
+   "primer_cierre": 65.75,
+   "ultimo_cierre": 36.98500061035156,
+   "primera_fecha": 1767364200,
+   "ultima_fecha": 1795185000,
+   "n": 224
+  },
+  "^MERV": {
+   "meta_precio": 2848945.2,
+   "primer_cierre": 2848945.25,
+   "ultimo_cierre": 2848945.25,
+   "primera_fecha": 1792182243,
+   "ultima_fecha": 1792182243,
+   "n": 1
+  }
+ },
+ "stooq_spy": {
+  "error": "<HTTPError 404: 'Not Found'>"
+ }
+}
