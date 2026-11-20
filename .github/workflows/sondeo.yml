@@ -1,0 +1,26 @@
+name: Sondeo de fuentes de precios
+on:
+  workflow_dispatch:
+  push:
+    paths: ["pruebas/sondeo.py", ".github/workflows/sondeo.yml"]
+  schedule:
+    - cron: "15 21 * * 1-5"   # 18:15 hora argentina, después del cierre de BYMA
+permissions:
+  contents: write
+jobs:
+  sondeo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python pruebas/sondeo.py
+      - name: Guardar resultados en el repositorio
+        run: |
+          git config user.name "pcam-bot"
+          git config user.email "pcam-bot@users.noreply.github.com"
+          git add pruebas/resultados
+          git commit -m "Sondeo de fuentes $(date -u +%F_%H%M)" || echo "sin cambios"
+          git pull --rebase
+          git push
